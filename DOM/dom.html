@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css" />
+  </head>
+  <body>
+    <!-- Cor Caixa -->
+    <h1>Mudar a cor da Caixa</h1>
+    <input type="text" id="textoCor" />
+    <button type="button" onclick="mudarCorCaixa()">Trocar</button>
+
+    <div id="caixa" class="teste vermelho amarelo"></div>
+
+    <!-- Impar Ou Par -->
+    <h1>Número impar ou par</h1>
+    <input type="number" id="texto" />
+    <button type="button" onclick="imparPar()">Enviar</button>
+
+
+    <h1>Registrar nomes em Array</h1>
+    <input type="text" id="nomes">
+    <button type="button" onclick="nomesRegistrar()">Registrar</button>
+
+    <ul id="listaNomes">
+        
+    </ul>
+
+
+    <h1>Informar dados</h1>
+    <input type="text" id="name">
+    <input type="text" id="lastName">
+    <input type="number" id="age">
+
+    <button type="button" onclick="register()">Registrar</button>
+
+    <div id="containerCards">
+      
+    </div>
+
+    <script src="./dom.js"></script>
+  </body>
+</html>

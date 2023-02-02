@@ -1,0 +1,44 @@
+body {
+    background: #252525;
+    color: white;
+}
+
+/* document.getElementById('caixa').style.backgroundColor= 'blue' */
+#caixa {
+
+
+    height: 200px;
+    width: 200px;
+    background: white;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+#containerCards {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#containerCards .itemCard {
+    width: calc((100% - 100px) / 2);
+
+    border: 1px solid white !important;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 12px;
+}
+
+#containerCards .itemCard span {
+    font-size: 24px;
+    
+}
+
+#containerCards .itemCard p {
+    font-size: 18px;
+    margin: 0;
+}
