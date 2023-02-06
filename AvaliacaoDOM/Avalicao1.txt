@@ -1,0 +1,21 @@
+Calculadora simples
+ - Irá ler 3 campos input do html pelo javascript
+ - Primeiro e terceiro campo serão números usados para fazer a conta
+ - Segundo campo sera informado qual a operação sera efetuada ( + - * / )
+ - Após os 3 campos serem preenchidos, o usuário precisará apertar um botão que alertará o usuário do resultado
+ - Valide se o usuário preencheu todos os campos
+
+Inserir item na lista, manter lista atualizada e remover item por nome
+ - Terá um conjunto de input e botão para adicionar um item na lista
+ - Terá outro conjunto de input e botão para remover um item da lista conforme o nome informado
+ - Uma função deve adicionar um nome em um array
+ - Uma função deve remover um item conforme o nome informado, caso não tenha o nome informado alertará o usuário
+ - Sempre que um item for adicionado e removido do array deve manter a lista dos <ul> atualizada
+ Dica
+ - arrNomes.indexOf(`nome`) me informa o index do nome dentro do array, caso o item não exista retorna o valor -1
+
+
+Teórica 10:30 -> 11:30
+Daily 11:30 -> 12:00
+Almoço 12:00 -> 13:00
+Prática 13:00 -> 16:00
