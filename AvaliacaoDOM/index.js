@@ -28,6 +28,12 @@ function add(){
     
     arrAdd.push(item)
 
+    att()
+    document.getElementById('item').value = ''
+}
+
+function att(){
+
     let arrHtml = ''
     for(let i = 0; i < arrAdd.length; i++){
         arrHtml += `
@@ -37,15 +43,16 @@ function add(){
       `
     }
     document.getElementById('arrayUl').innerHTML = arrHtml
-    document.getElementById('item').value = ''
+    
+
 }
 
 function remove(){
     let itemRemove = document.getElementById('itemRemove').value
 
-
     arrAdd.splice(arrAdd.indexOf(itemRemove),1)
-    add()
+
+    att()
 
     document.getElementById('itemRemove').value = ''
 }
