@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <section>
+      <h2>Login</h2>
+      <input
+        type="text"
+        id="inputUser"
+        placeholder="Username"
+        onkeyup="validaCampo(event)"
+      />
+      <input type="password" id="inputPass" placeholder="Password" />
+      <button type="button" onclick="validLogin()">Login</button>
+    </section>
+
+    <section>
+      <h2>CEP</h2>
+      <input type="text" id="inputCep" onkeyup="validCep(event)" />
+      <button type="button" id="btnCep" disabled>BUSCAR CEP</button>
+    </section>
+
+    <section>
+      <h2>NOVA SENHA</h2>
+      <input type="password" placeholder="Nova senha" id="inputRepitaSenha" onkeyup="validPass()" />
+
+      <input type="password" placeholder="Repita a senha" id="inputRepitaSenha2" onkeyup="validPass()" />
+
+      <button type="button" id="btnPass" disabled>Nova senha</button>
+    </section>
+
+    <section>
+      <h2>Inserir item no Enter</h2>
+      <input type="text" id="nomeInput" onkeyup="insertEnter(event)" />
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

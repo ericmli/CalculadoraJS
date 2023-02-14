@@ -20,6 +20,7 @@ body {
     gap: 10px;
     flex-wrap: wrap;
     margin-top: 20px;
+    
 }
 
 #containerCards .itemCard {
@@ -31,6 +32,13 @@ body {
     flex-direction: column;
     gap: 15px;
     padding: 12px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+#containerCards .itemCard::before{
+    transition: 2s;
+
 }
 
 #containerCards .itemCard span {

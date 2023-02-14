@@ -81,7 +81,7 @@ function atualizaCards(){
     let cardsHtml = ''
     for(let i = 0; i < arr.length; i++){
         cardsHtml += `
-        <div class="itemCard">
+        <div class="itemCard" onclick="removerPessoa(${i})">
             <span>Nome</span>
             <p>${arr[i].nome}</p>
             <span>Sobrenome</span>
@@ -93,3 +93,10 @@ function atualizaCards(){
     }
     document.getElementById('containerCards').innerHTML = cardsHtml
 }
+
+function removerPessoa(i){
+    arr.splice(i,1)
+    atualizaCards()
+}
+
+//  listadeCompras.splice(listadeCompras.indexOf(function),1) 

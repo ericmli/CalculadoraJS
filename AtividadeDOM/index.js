@@ -8,21 +8,22 @@ function confirmar() {
 
         document.getElementById("listaTab").innerHTML += '<li>' + numero + ' X ' + i + ' = ' + (i * numero) + '</li>'
 
-        console.log(i)
+        
     }
     numero = document.getElementById('numero').value = ''
 
 }
 
 function aleatorio() {
-    document.getElementById("listaTab").innerHTML = ''
+    let tabuadaHTML = ''
     for (let i = 1; i <= 10; i++) {
 
+        tabuadaHTML +=  '<ul>'
         for (let j = 0; j <= 10; j++) {
-
-            document.getElementById("listaTab").innerHTML += '<li>' + i + ' X ' + j + ' = ' + (i * j) + '</li>'
-
-            console.log(i)
+            tabuadaHTML+= '<li>' + i + ' X ' + j + ' = ' + (i * j) + '</li>'
         }
+        tabuadaHTML += '</ul>'
     }
+    document.getElementById('listaTab').innerHTML = tabuadaHTML
+    console.log(tabuadaHTML)
 }

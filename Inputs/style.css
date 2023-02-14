@@ -1,0 +1,22 @@
+input[type="text"],
+input[type="number"],
+input[type="password"]{
+    display: block;
+    width: 300px;
+    padding: 20px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    color: aqua;
+
+}
+
+input::placeholder{
+    color: blue;
+}
+
+input[type="text"]{
+    background-color: rgba(209, 202, 202, 0.548);
+}
