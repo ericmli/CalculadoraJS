@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+
+    <title>API</title>
+    <link rel="stylesheet" href="create.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>
+              Criar Produto
+            </h1>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  Nome do Produto
+                </span>
+              </div>
+              <input type="text" class="form-control" placeholder="Digite aqui..." id="inputProduto">
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  Preço do produto
+                </span>
+              </div>
+              <input type="number" class="form-control" placeholder="Digite aqui..." id="inputPreco">
+            </div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  Produtos em estoque
+                </span>
+              </div>
+              <input type="number" class="form-control" placeholder="Digite aqui..."id="inputEstoque">
+            </div>
+            <button type="button" class="btn btn-success" onclick="criarProduto()">Criar produto</button>
+
+          </div>
+        </div>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="create.js"></script>
+</body>
+
+</html>
