@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="./create.css"> -->
+
+  <title>CRUD</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>
+          Criar Notícia
+        </h1>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              Título da notícia
+            </span>
+          </div>
+          <input type="text" class="form-control" placeholder="Digite aqui..."
+            id="titleNoticia">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              Corpo da notícia
+            </span>
+          </div>
+          <input type="text" class="form-control" placeholder="Digite aqui..."
+            id="bodyNoticia">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              Autor da notícia
+            </span>
+          </div>
+          <input type="text" class="form-control" placeholder="Digite aqui..."
+            id="authorNoticia">
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              Categoria da notícia
+            </span>
+          </div>
+          <select id="selectCateg" class="form-control">
+            <!-- Propriedades Dinâmicas -->
+          </select>
+        </div>
+        
+        <button type="button" class="btn btn-success" onclick="criarProduto(); return false">
+          Criar produto
+        </button>
+
+        <h1>
+          Adicionar Categoria
+        </h1>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              Nome da Categoria
+            </span>
+          </div>
+          <input type="text" class="form-control" placeholder="Digite aqui..." id="inputCategoria">
+        </div>
+
+        <button type="button" class="btn btn-success" onclick="criarCategoria()">
+          Criar categoria
+        </button>
+
+        <h1>
+          Adicionar Autor
+        </h1>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">
+              Nome do Autor
+            </span>
+          </div>
+          <input type="text" class="form-control" placeholder="Digite aqui..." id="inputAutor">
+        </div>
+
+        <button type="button" class="btn btn-success" onclick="criarAutor();">
+          Criar Autor
+        </button>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="./crNews.js"></script>
+
+</body>
+
+</html>

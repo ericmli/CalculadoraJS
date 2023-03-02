@@ -1,0 +1,21 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "Tragédia no litoral norte",
+      "subtitulo": "No final de semana, com a chuva forte, ocorreram desabamentos em várias regiões",
+      "dataPostagem": "2023-02-20",
+      "corpo": "Cerca de 500 moradores de classe média e alta de São Sebastião se reuniram com a prefeitura para barrar a construção de casas populares em um bairro nobre da cidade. A revelação foi feita pelo prefeito Felipe Augusto (PSDB), em entrevista ao UOL News nesta quinta. O mandatário afirmou que este grupo se mobilizou contra as obras no bairro de Maresias, que possui em torno de 300 famílias morando em áreas de risco.",
+      "categoria": "Brasil",
+      "auto": "Matheus Pinheiro"
+    },
+    {
+      "titulo": "Amora",
+      "subtitulo": "Odeio amora",
+      "corpo": "nobre da cidade. A revelação foi feita pelo prefeito Felipe Augusto (PSDB), em entrevista ao UOL News nesta quinta. O mandatário afirmou que este grupo se mobili",
+      "categoria": "Mundo",
+      "dataPostagem": "1893-02-20",
+      "id": 3
+    }
+  ]
+}

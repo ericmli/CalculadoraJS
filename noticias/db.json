@@ -1,0 +1,56 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Título da notícia",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod posuere risus, sit amet vestibulum nulla vestibulum a. Nulla lorem nibh, ullamcorper sit amet pellentesque eget, pellentesque ut sem. Ut vitae ex ac eros imperdiet fermentum quis id justo. Aliquam erat volutpat. Donec nec leo luctus, malesuada augue non, faucibus mi. Ut id dolor at justo scelerisque pretium ut quis ex. Nulla justo quam, semper posuere cursus porttitor, pharetra ac turpis. Pellentesque eu lacus vel mauris vehicula suscipit ut dictum massa. Pellentesque sit amet elit turpis. Etiam eget ipsum maximus ante aliquet rutrum vel a urna. Sed viverra sem at est ullamcorper, vitae pulvinar leo egestas. Aliquam eleifend est nec tortor mattis ornare.Morbi ut nulla eu mi ornare porttitor ut et orci. Phasellus et varius sem. Fusce mattis quam eget leo fringilla, et porttitor elit imperdiet. Nunc at enim et sapien dignissim venenatis. Etiam eu arcu gravida, sodales turpis id, volutpat ligula. Praesent vitae diam ut eros posuere varius. Phasellus tristique eu erat sed faucibus. Nullam tincidunt augue in leo fermentum, non vulputate tortor pretium. Sed quis tellus gravida, tristique arcu nec, aliquam libero. Mauris feugiat congue fringilla.Vivamus consequat tempus posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ultrices auctor cursus. Nullam finibus quam ex, ut posuere quam cursus non. Duis suscipit ullamcorper cursus. Integer rutrum, nulla nec luctus posuere, lacus urna porta neque, non molestie erat justo gravida neque. Maecenas facilisis suscipit velit, quis egestas enim blandit a. Vivamus arcu nisl, vehicula nec sapien in, aliquet scelerisque arcu. Proin fermentum, ipsum ut interdum mattis, mauris diam vulputate leo, sit amet ultricies massa dolor sed felis. Suspendisse tincidunt eu nulla porttitor auctor. Mauris faucibus nec nunc accumsan dapibus. Integer lacinia urna non iaculis euismod. Pellentesque habitant morbi tristique senectus et netus.",
+      "authorId": 1,
+      "categoryId": 1,
+      "publishDate": "2022-06-14"
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "author": "Matheus Pinheiro",
+      "publishedNews": [
+        1
+      ],
+      "loginKey": "m8sn10sa24bcn5"
+    },
+    {
+      "author": "Teste",
+      "id": 2
+    },
+    {
+      "author": "Eric",
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "Brasil"
+    },
+    {
+      "id": 2,
+      "category": "Mundo"
+    },
+    {
+      "id": 3,
+      "category": "Esportes"
+    },
+    {
+      "id": 4,
+      "category": "Carros"
+    },
+    {
+      "category": "Teste",
+      "id": 5
+    },
+    {
+      "category": "",
+      "id": 6
+    }
+  ]
+}

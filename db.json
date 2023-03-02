@@ -1,0 +1,34 @@
+{
+  "produtos": [
+    {
+      "name": "Samsumg S20",
+      "price": 1999.99,
+      "stock": 23,
+      "description": "KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK",
+      "categorie": "Informática",
+      "launch": "2023-02-23",
+      "sale": true,
+      "id": 1
+    },
+    {
+      "name": "sdisajdisandia",
+      "price": 23,
+      "stock": 2,
+      "description": "wiuanciwancjajsncjsancksdadsadsadsa",
+      "categorie": "Informática",
+      "launch": "2023-02-23",
+      "sale": false,
+      "id": 2
+    },
+    {
+      "name": "Iphone 14",
+      "price": 6000,
+      "stock": 2,
+      "description": "msdkjadkjsandksandksadsandkjsandkjsandsadsa",
+      "categorie": "Periféricos",
+      "launch": "2023-02-23",
+      "sale": true,
+      "id": 3
+    }
+  ]
+}
